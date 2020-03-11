@@ -37,10 +37,12 @@ with open(pybank_csv, 'r') as csvfile:
             min_pnl = int(row[1])
             min_date = (row[0])
 
-    
+    print("------------------------------------------------------")
+    print("              Financial Analysis")
+    print("------------------------------------------------------")
     print(f"There are {row_count} months")     
     print(f"The net profit/loss is {pnl}") 
     print(f"The average profit/loss is {round(ave_pnl)}") 
     print(f"The largest profit increase is: {max_date} {max_pnl}")
     print(f"The largest profit decrease is: {min_date} {min_pnl}")
-     
+    print("------------------------------------------------------") 
