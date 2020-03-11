@@ -15,8 +15,7 @@ with open(pybank_csv, 'r') as csvfile:
     max_pnl = 0
     min_pnl = 0
 
-    header = next(csvreader)
-
+    
     for row in csvreader:
 
         #Count the number of months
@@ -41,8 +40,8 @@ with open(pybank_csv, 'r') as csvfile:
     print("              Financial Analysis")
     print("------------------------------------------------------")
     print(f"There are {row_count} months")     
-    print(f"The net profit/loss is {pnl}") 
-    print(f"The average profit/loss is {round(ave_pnl)}") 
-    print(f"The largest profit increase is: {max_date} {max_pnl}")
-    print(f"The largest profit decrease is: {min_date} {min_pnl}")
+    print(f"The net profit/loss is ${pnl}") 
+    print(f"The average profit/loss is ${round(ave_pnl)}") 
+    print(f"The largest profit increase is: {max_date}  ${max_pnl}")
+    print(f"The largest profit decrease is: {min_date} ${min_pnl}")
     print("------------------------------------------------------") 
