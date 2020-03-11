@@ -1,0 +1,9 @@
+------------------------------------------------------
+              Financial Analysis
+------------------------------------------------------
+There are 86 months
+The net profit/loss is $38382578
+The average profit/loss is $446309
+The largest profit increase is: Feb-2012 $1170593
+The largest profit decrease is: Sep-2013 $-1196225
+------------------------------------------------------
