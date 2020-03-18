@@ -47,13 +47,13 @@ with open(election_data_csv, 'r') as csvfile:
 #Calculate vote percentages.
 
 #Khan
-khan_perc = round((khan_count / vote_count), 2) * 100 
+khan_perc = '{0:.2f}'.format((khan_count / vote_count) * 100) 
 #Correy
-correy_perc = round((correy_count / vote_count), 2) * 100
+correy_perc = '{0:.2f}'.format((correy_count / vote_count) * 100)
 #Li
-li_perc = round((li_count / vote_count), 1) * 100
+li_perc = '{0:.2f}'.format((li_count / vote_count) * 100)
 #O'Tooley
-otooley_perc = round((otooley_count / vote_count), 2) * 100
+otooley_perc = '{0:.2f}'.format((otooley_count / vote_count) * 100)
 
 #Calculate winner
 candidate_vote_count = [khan_count, correy_count, li_count, otooley_count]
